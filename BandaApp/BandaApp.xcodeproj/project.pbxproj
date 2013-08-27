@@ -14,8 +14,6 @@
 		395316CE17CC477D00AA4E51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 395316CD17CC477D00AA4E51 /* main.m */; };
 		395316D217CC477D00AA4E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 395316D117CC477D00AA4E51 /* AppDelegate.m */; };
 		395316D517CC477D00AA4E51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395316D317CC477D00AA4E51 /* Main.storyboard */; };
-		395316D817CC477D00AA4E51 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 395316D717CC477D00AA4E51 /* FirstViewController.m */; };
-		395316DB17CC477D00AA4E51 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 395316DA17CC477D00AA4E51 /* SecondViewController.m */; };
 		395316DD17CC477D00AA4E51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395316DC17CC477D00AA4E51 /* Images.xcassets */; };
 		395316E417CC477D00AA4E51 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395316E317CC477D00AA4E51 /* XCTest.framework */; };
 		395316E517CC477D00AA4E51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395316C117CC477D00AA4E51 /* Foundation.framework */; };
@@ -46,10 +44,6 @@
 		395316D017CC477D00AA4E51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		395316D117CC477D00AA4E51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		395316D417CC477D00AA4E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		395316D617CC477D00AA4E51 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		395316D717CC477D00AA4E51 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		395316D917CC477D00AA4E51 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		395316DA17CC477D00AA4E51 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		395316DC17CC477D00AA4E51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		395316E217CC477D00AA4E51 /* BandaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		395316E317CC477D00AA4E51 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -118,10 +112,6 @@
 				395316D017CC477D00AA4E51 /* AppDelegate.h */,
 				395316D117CC477D00AA4E51 /* AppDelegate.m */,
 				395316D317CC477D00AA4E51 /* Main.storyboard */,
-				395316D617CC477D00AA4E51 /* FirstViewController.h */,
-				395316D717CC477D00AA4E51 /* FirstViewController.m */,
-				395316D917CC477D00AA4E51 /* SecondViewController.h */,
-				395316DA17CC477D00AA4E51 /* SecondViewController.m */,
 				395316DC17CC477D00AA4E51 /* Images.xcassets */,
 				395316C817CC477D00AA4E51 /* Supporting Files */,
 			);
@@ -254,9 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				395316DB17CC477D00AA4E51 /* SecondViewController.m in Sources */,
 				395316D217CC477D00AA4E51 /* AppDelegate.m in Sources */,
-				395316D817CC477D00AA4E51 /* FirstViewController.m in Sources */,
 				395316CE17CC477D00AA4E51 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
